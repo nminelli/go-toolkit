@@ -9,8 +9,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/MFN-AISystems/go-toolkit/httprouter"
-	"github.com/MFN-AISystems/go-toolkit/httprouter/middleware"
+	"github.com/nminelli/go-toolkit/httprouter"
+	"github.com/nminelli/go-toolkit/httprouter/middleware"
 )
 
 func TestNewConfigHandlers(t *testing.T) {

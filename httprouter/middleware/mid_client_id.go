@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/MFN-AISystems/go-toolkit/telemetry/log"
+	"github.com/nminelli/go-toolkit/telemetry/log"
 )
 
 type middlewareError struct {

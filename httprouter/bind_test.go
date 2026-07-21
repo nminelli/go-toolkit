@@ -10,11 +10,10 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/go-playground/validator/v10"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/MFN-AISystems/go-toolkit/httprouter"
+	"github.com/nminelli/go-toolkit/httprouter"
 )
 
 func TestBind_JSON(t *testing.T) {

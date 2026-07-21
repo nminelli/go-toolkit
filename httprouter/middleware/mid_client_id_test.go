@@ -11,7 +11,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/MFN-AISystems/go-toolkit/telemetry"
+	"github.com/nminelli/go-toolkit/telemetry"
 )
 
 func init() {

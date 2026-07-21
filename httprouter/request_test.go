@@ -5,7 +5,7 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/MFN-AISystems/go-toolkit/httprouter"
+	"github.com/nminelli/go-toolkit/httprouter"
 )
 
 func TestURLParam(t *testing.T) {

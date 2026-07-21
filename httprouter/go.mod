@@ -1,12 +1,12 @@
-module github.com/MFN-AISystems/go-toolkit/httprouter
+module github.com/nminelli/go-toolkit/httprouter
 
 go 1.25.6
 
 require (
-	github.com/MFN-AISystems/go-toolkit/telemetry v0.0.1
 	github.com/go-chi/chi/v5 v5.2.4
 	github.com/go-playground/validator/v10 v10.30.1
 	github.com/golang-jwt/jwt/v5 v5.3.0
+	github.com/nminelli/go-toolkit/telemetry v0.0.1
 	github.com/stretchr/testify v1.11.1
 	go.opentelemetry.io/otel v1.39.0
 	go.opentelemetry.io/otel/trace v1.39.0

@@ -6,7 +6,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/MFN-AISystems/go-toolkit/httprouter"
+	"github.com/nminelli/go-toolkit/httprouter"
 )
 
 func TestNewError(t *testing.T) {

@@ -9,8 +9,8 @@ import (
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/require"
 
-	"github.com/MFN-AISystems/go-toolkit/httprouter"
-	"github.com/MFN-AISystems/go-toolkit/httprouter/middleware"
+	"github.com/nminelli/go-toolkit/httprouter"
+	"github.com/nminelli/go-toolkit/httprouter/middleware"
 )
 
 type breaker struct{ mock.Mock }

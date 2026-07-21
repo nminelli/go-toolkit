@@ -45,7 +45,7 @@ rather than forcing you into a specific framework architecture.
 ## Installation
 
 ```bash
-go get github.com/MFN-AISystems/go-toolkit/httprouter
+go get github.com/nminelli/go-toolkit/httprouter
 ```
 
 ## Core Features
@@ -73,7 +73,7 @@ import (
 	"net"
 	"net/http"
 
-	"github.com/MFN-AISystems/go-toolkit/httprouter"
+	"github.com/nminelli/go-toolkit/httprouter"
 )
 
 func main() {
@@ -380,7 +380,7 @@ Extract client IDs from headers or JWT tokens for request processing:
 
 ```go
 import (
-    "github.com/MFN-AISystems/go-toolkit/httprouter/middleware"
+    "github.com/nminelli/go-toolkit/httprouter/middleware"
 )
 
 // Extract client ID from header
@@ -426,7 +426,7 @@ The Audited middleware captures and logs audit events for each HTTP request and 
 
 ```go
 import (
-    "github.com/MFN-AISystems/go-toolkit/httprouter/middleware"
+    "github.com/nminelli/go-toolkit/httprouter/middleware"
 )
 
 // Add audited middleware to track all HTTP requests
@@ -447,7 +447,7 @@ Forward tracing headers for distributed systems:
 
 ```go
 import (
-    "github.com/MFN-AISystems/go-toolkit/httprouter/middleware"
+    "github.com/nminelli/go-toolkit/httprouter/middleware"
 )
 
 // Add header forwarding middleware

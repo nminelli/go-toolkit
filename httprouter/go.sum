@@ -1,5 +1,3 @@
-github.com/MFN-AISystems/go-toolkit/telemetry v0.0.1 h1:waTTh/N/rarswTxgmTwPKL75BgpwBjKz8JuNy6+sYtY=
-github.com/MFN-AISystems/go-toolkit/telemetry v0.0.1/go.mod h1:dsiwJwW09Qovr8LF62xL0cCZwK2FVAK5xguPjZAf+jk=
 github.com/agoda-com/opentelemetry-logs-go v0.6.0 h1:PdnNbW2a5vp4VWasIGVHJ85/4Eu0kZfLs3ySuitLN20=
 github.com/agoda-com/opentelemetry-logs-go v0.6.0/go.mod h1:zPrxWeyxZ8QRWJFNBFJ2zeWjJu0OuGG+Ow4KYEGEA5o=
 github.com/bytedance/sonic v1.14.0 h1:/OfKt8HFw0kh2rj8N0F6C/qPGRESq0BbaNZgcNXXzQQ=
@@ -67,6 +65,8 @@ github.com/modern-go/concurrent v0.0.0-20180228061459-e0a39a4cb421 h1:ZqeYNhU3OH
 github.com/modern-go/concurrent v0.0.0-20180228061459-e0a39a4cb421/go.mod h1:6dJC0mAP4ikYIbvyc7fijjWJddQyLn8Ig3JB5CqoB9Q=
 github.com/modern-go/reflect2 v1.0.2 h1:xBagoLtFs94CBntxluKeaWgTMpvLxC4ur3nMaC9Gz0M=
 github.com/modern-go/reflect2 v1.0.2/go.mod h1:yWuevngMOJpCy52FWWMvUC8ws7m/LJsjYzDa0/r8luk=
+github.com/nminelli/go-toolkit/telemetry v0.0.1 h1:kK+rZcCyw3yvy76EfcjjzRsmpCCrMdr/9pAbK5loCJE=
+github.com/nminelli/go-toolkit/telemetry v0.0.1/go.mod h1:J42wqgJNTj8Ay7p/x/AiIzJkTjHYkws8xp/p1/T/u9Q=
 github.com/pelletier/go-toml/v2 v2.2.4 h1:mye9XuhQ6gvn5h28+VilKrrPoQVanw5PMw/TB0t5Ec4=
 github.com/pelletier/go-toml/v2 v2.2.4/go.mod h1:2gIqNv+qfxSVS7cM2xJQKtLSTLUE9V8t9Stt+h56mCY=
 github.com/pkg/errors v0.9.1 h1:FEBLx1zS214owpjy7qsBeixbURkuhQAwrK5UwLGTwt4=
