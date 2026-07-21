@@ -15,7 +15,7 @@ The `log` package provides a standardized logging interface using Zap logger. It
 ## Installation
 
 ```bash
-go get github.com/MFN-AISystems/go-toolkit/telemetry/log
+go get github.com/nminelli/go-toolkit/telemetry/log
 ```
 
 ## Usage
@@ -23,7 +23,7 @@ go get github.com/MFN-AISystems/go-toolkit/telemetry/log
 ### Basic Logging
 
 ```go
-import "github.com/MFN-AISystems/go-toolkit/telemetry/log"
+import "github.com/nminelli/go-toolkit/telemetry/log"
 
 // Create a logger
 logger := log.NewLogger()

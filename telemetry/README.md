@@ -16,7 +16,7 @@ using OpenTelemetry.
 ## Installation
 
 ```bash
-go get github.com/MFN-AISystems/go-toolkit/telemetry
+go get github.com/nminelli/go-toolkit/telemetry
 ```
 
 ## Requirements
@@ -51,7 +51,7 @@ So the first thing you need to do is, initialize the module:
 import (
 	"context"
 	"fmt"
-	"github.com/MFN-AISystems/go-toolkit/telemetry"
+	"github.com/nminelli/go-toolkit/telemetry"
 )
 
 func main() {
@@ -83,7 +83,7 @@ that automatically:
 ```go
 import (
 	"net/http"
-	"github.com/MFN-AISystems/go-toolkit/telemetry"
+	"github.com/nminelli/go-toolkit/telemetry"
 )
 
 // Initialize telemetry first

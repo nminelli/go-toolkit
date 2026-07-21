@@ -6,7 +6,7 @@ import (
 
 	"go.uber.org/zap"
 
-	"github.com/MFN-AISystems/go-toolkit/telemetry/log/otelzap"
+	"github.com/nminelli/go-toolkit/telemetry/log/otelzap"
 )
 
 const _logLevelEnvName = "LOG_LEVEL"

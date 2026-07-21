@@ -18,9 +18,9 @@ import (
 	"go.opentelemetry.io/otel/sdk/trace/tracetest"
 	semconv "go.opentelemetry.io/otel/semconv/v1.37.0"
 
-	"github.com/MFN-AISystems/go-toolkit/telemetry/log"
-	"github.com/MFN-AISystems/go-toolkit/telemetry/metric"
-	"github.com/MFN-AISystems/go-toolkit/telemetry/tracing"
+	"github.com/nminelli/go-toolkit/telemetry/log"
+	"github.com/nminelli/go-toolkit/telemetry/metric"
+	"github.com/nminelli/go-toolkit/telemetry/tracing"
 )
 
 func TestMain(m *testing.M) {

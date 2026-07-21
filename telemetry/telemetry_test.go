@@ -11,7 +11,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/MFN-AISystems/go-toolkit/telemetry/internal/otelhttp"
+	"github.com/nminelli/go-toolkit/telemetry/internal/otelhttp"
 )
 
 func Test_Initialize_Success(t *testing.T) {

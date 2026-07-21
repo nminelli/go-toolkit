@@ -15,7 +15,7 @@ import (
 )
 
 const (
-	instrumentationName = "github.com/MFN-AISystems/go-toolkit/telemetry/log"
+	instrumentationName = "github.com/nminelli/go-toolkit/telemetry/log"
 )
 
 // This class provide interface for OTLP logger

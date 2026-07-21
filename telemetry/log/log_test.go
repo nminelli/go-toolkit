@@ -6,7 +6,7 @@ import (
 
 	"github.com/gin-gonic/gin"
 
-	"github.com/MFN-AISystems/go-toolkit/telemetry/log"
+	"github.com/nminelli/go-toolkit/telemetry/log"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

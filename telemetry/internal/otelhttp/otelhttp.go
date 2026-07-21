@@ -17,7 +17,7 @@ import (
 	"go.opentelemetry.io/otel/semconv/v1.37.0/httpconv"
 	"go.opentelemetry.io/otel/trace"
 
-	"github.com/MFN-AISystems/go-toolkit/telemetry/tracing"
+	"github.com/nminelli/go-toolkit/telemetry/tracing"
 )
 
 // OTelRoundTripper is an http.RoundTripper that instruments HTTP requests with OpenTelemetry.

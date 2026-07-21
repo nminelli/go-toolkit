@@ -6,7 +6,7 @@ import (
 
 	"go.opentelemetry.io/otel/trace"
 
-	"github.com/MFN-AISystems/go-toolkit/telemetry/log/otelzap"
+	"github.com/nminelli/go-toolkit/telemetry/log/otelzap"
 )
 
 const (

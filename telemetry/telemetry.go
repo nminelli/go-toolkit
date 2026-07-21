@@ -12,10 +12,10 @@ import (
 	"go.opentelemetry.io/otel/sdk/resource"
 	semconv "go.opentelemetry.io/otel/semconv/v1.27.0"
 
-	"github.com/MFN-AISystems/go-toolkit/telemetry/internal/otelhttp"
-	"github.com/MFN-AISystems/go-toolkit/telemetry/log"
-	"github.com/MFN-AISystems/go-toolkit/telemetry/metric"
-	"github.com/MFN-AISystems/go-toolkit/telemetry/tracing"
+	"github.com/nminelli/go-toolkit/telemetry/internal/otelhttp"
+	"github.com/nminelli/go-toolkit/telemetry/log"
+	"github.com/nminelli/go-toolkit/telemetry/metric"
+	"github.com/nminelli/go-toolkit/telemetry/tracing"
 )
 
 // Init initializes all the OpenTelemetry providers using the environment configuration.
@@ -88,7 +88,7 @@ func newOtelResource(ctx context.Context) (*resource.Resource, error) {
 }
 
 const (
-	_defaultTracerName = "github.com/MFN-AISystems/go-toolkit/telemetry"
+	_defaultTracerName = "github.com/nminelli/go-toolkit/telemetry"
 )
 
 // PathPattern represents a regex pattern for matching and sanitizing URL paths in span names.
@@ -170,7 +170,7 @@ func WithCustomSanitizer(sanitizer func(method, path string) string) Option {
 // Parameters:
 //   - base: The underlying http.RoundTripper to wrap. If nil, http.DefaultTransport is used.
 //   - tracerName: The name to use for the OpenTelemetry tracer. If empty, uses the default
-//     tracer name "github.com/MFN-AISystems/go-toolkit/telemetry".
+//     tracer name "github.com/nminelli/go-toolkit/telemetry".
 //   - tracerVersion: The version to associate with the tracer. If tracerName is empty,
 //     this parameter is ignored and the telemetry package version is used instead.
 //   - opts: Optional functional options for customizing span name generation. See WithAdditionalPatterns

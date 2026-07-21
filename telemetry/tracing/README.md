@@ -14,7 +14,7 @@ The `tracing` package provides a simplified interface for distributed tracing us
 ## Installation
 
 ```bash
-go get github.com/MFN-AISystems/go-toolkit/telemetry/tracing
+go get github.com/nminelli/go-toolkit/telemetry/tracing
 ```
 
 ## Usage

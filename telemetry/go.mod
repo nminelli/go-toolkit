@@ -1,4 +1,4 @@
-module github.com/MFN-AISystems/go-toolkit/telemetry
+module github.com/nminelli/go-toolkit/telemetry
 
 go 1.25.6
 

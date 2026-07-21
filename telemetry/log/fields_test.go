@@ -8,7 +8,7 @@ import (
 	"time"
 	"unsafe"
 
-	"github.com/MFN-AISystems/go-toolkit/telemetry/log"
+	"github.com/nminelli/go-toolkit/telemetry/log"
 
 	"github.com/stretchr/testify/assert"
 	"go.uber.org/zap"

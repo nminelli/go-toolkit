@@ -312,7 +312,7 @@ func TestOtlpCore_GetErrorType(t *testing.T) {
 		{
 			name:     "custom error",
 			err:      &customError{message: "custom test error"},
-			expected: "github.com/MFN-AISystems/go-toolkit/telemetry/log/otelzap.customError",
+			expected: "github.com/nminelli/go-toolkit/telemetry/log/otelzap.customError",
 		},
 		{
 			name:     "fmt error",
@@ -414,7 +414,7 @@ func TestOtlpCore_AddExceptionInfo(t *testing.T) {
 			name:               "error field with custom error",
 			fields:             []zapcore.Field{zap.Error(&customError{message: "custom error"})},
 			expectedException:  true,
-			expectedType:       "github.com/MFN-AISystems/go-toolkit/telemetry/log/otelzap.customError",
+			expectedType:       "github.com/nminelli/go-toolkit/telemetry/log/otelzap.customError",
 			expectedMessage:    "custom error",
 			expectedStackTrace: "",
 		},
@@ -424,7 +424,7 @@ func TestOtlpCore_AddExceptionInfo(t *testing.T) {
 				zap.Error(&stackError{message: "stack error", stack: []byte("test stack")}),
 			},
 			expectedException:  true,
-			expectedType:       "github.com/MFN-AISystems/go-toolkit/telemetry/log/otelzap.stackError",
+			expectedType:       "github.com/nminelli/go-toolkit/telemetry/log/otelzap.stackError",
 			expectedMessage:    "stack error",
 			expectedStackTrace: "test stack",
 		},

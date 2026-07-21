@@ -11,7 +11,7 @@ import (
 	sdktrace "go.opentelemetry.io/otel/sdk/trace"
 	"go.opentelemetry.io/otel/trace"
 
-	"github.com/MFN-AISystems/go-toolkit/telemetry/log/otelzap"
+	"github.com/nminelli/go-toolkit/telemetry/log/otelzap"
 )
 
 func TestContext_WithLogger(t *testing.T) {

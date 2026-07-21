@@ -11,7 +11,7 @@ import (
 	"github.com/stretchr/testify/require"
 	"go.opentelemetry.io/otel/sdk/resource"
 
-	"github.com/MFN-AISystems/go-toolkit/telemetry/tracing"
+	"github.com/nminelli/go-toolkit/telemetry/tracing"
 )
 
 func TestForceFlushLogs(t *testing.T) {
