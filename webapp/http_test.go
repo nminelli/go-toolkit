@@ -15,7 +15,7 @@ import (
 	"go.opentelemetry.io/otel/codes"
 	"go.opentelemetry.io/otel/trace"
 
-	"github.com/MFN-AISystems/go-toolkit/webapp"
+	"github.com/nminelli/go-toolkit/webapp"
 )
 
 func TestJSON(t *testing.T) {

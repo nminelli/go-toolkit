@@ -6,8 +6,8 @@ import (
 	"io"
 	"net/http"
 
-	"github.com/MFN-AISystems/go-toolkit/telemetry/log"
-	"github.com/MFN-AISystems/go-toolkit/telemetry/tracing"
+	"github.com/nminelli/go-toolkit/telemetry/log"
+	"github.com/nminelli/go-toolkit/telemetry/tracing"
 )
 
 // httpErrorResponse represents the JSON structure returned to clients on errors

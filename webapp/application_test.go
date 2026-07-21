@@ -13,8 +13,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/MFN-AISystems/go-toolkit/httprouter"
-	"github.com/MFN-AISystems/go-toolkit/webapp"
+	"github.com/nminelli/go-toolkit/httprouter"
+	"github.com/nminelli/go-toolkit/webapp"
 )
 
 func TestMain(m *testing.M) {

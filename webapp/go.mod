@@ -1,12 +1,12 @@
-module github.com/MFN-AISystems/go-toolkit/webapp
+module github.com/nminelli/go-toolkit/webapp
 
 go 1.25.6
 
 require (
-	github.com/MFN-AISystems/go-toolkit/httprouter v0.0.1
-	github.com/MFN-AISystems/go-toolkit/telemetry v0.0.1
 	github.com/go-chi/chi/v5 v5.2.4
 	github.com/joho/godotenv v1.5.1
+	github.com/nminelli/go-toolkit/httprouter v0.0.1
+	github.com/nminelli/go-toolkit/telemetry v0.0.1
 	github.com/pkg/errors v0.9.1
 	github.com/stretchr/testify v1.11.1
 	go.opentelemetry.io/otel v1.39.0

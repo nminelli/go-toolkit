@@ -8,7 +8,7 @@ import (
 
 	"github.com/joho/godotenv"
 
-	"github.com/MFN-AISystems/go-toolkit/telemetry/log"
+	"github.com/nminelli/go-toolkit/telemetry/log"
 )
 
 func LoadEnvFile() error {

@@ -17,9 +17,9 @@ import (
 	semconv "go.opentelemetry.io/otel/semconv/v1.23.0"
 	"go.opentelemetry.io/otel/semconv/v1.37.0/httpconv"
 
-	"github.com/MFN-AISystems/go-toolkit/httprouter"
-	"github.com/MFN-AISystems/go-toolkit/telemetry"
-	"github.com/MFN-AISystems/go-toolkit/telemetry/log"
+	"github.com/nminelli/go-toolkit/httprouter"
+	"github.com/nminelli/go-toolkit/telemetry"
+	"github.com/nminelli/go-toolkit/telemetry/log"
 )
 
 const (

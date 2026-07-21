@@ -9,17 +9,17 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/MFN-AISystems/go-toolkit/webapp"
+	"github.com/nminelli/go-toolkit/webapp"
 )
 
 func TestLoadEnvFile(t *testing.T) {
 	testCases := []struct {
-		name               string
-		envVars            map[string]string
-		createFiles        map[string]string
-		expectError        bool
-		validateError      func(t *testing.T, err error)
-		validateEnvLoaded  func(t *testing.T)
+		name              string
+		envVars           map[string]string
+		createFiles       map[string]string
+		expectError       bool
+		validateError     func(t *testing.T, err error)
+		validateEnvLoaded func(t *testing.T)
 	}{
 		{
 			name: "loads .env.local when ENVIRONMENT is empty (default)",
@@ -111,7 +111,7 @@ func TestLoadEnvFile(t *testing.T) {
 			tmpDir := t.TempDir()
 			oldDir, err := os.Getwd()
 			require.NoError(t, err)
-			
+
 			// Change to temp directory
 			err = os.Chdir(tmpDir)
 			require.NoError(t, err)
@@ -161,7 +161,7 @@ func TestLoadEnvFile_Integration(t *testing.T) {
 		tmpDir := t.TempDir()
 		oldDir, err := os.Getwd()
 		require.NoError(t, err)
-		
+
 		err = os.Chdir(tmpDir)
 		require.NoError(t, err)
 		defer func() {
@@ -182,7 +182,7 @@ func TestLoadEnvFile_Integration(t *testing.T) {
 		tmpDir := t.TempDir()
 		oldDir, err := os.Getwd()
 		require.NoError(t, err)
-		
+
 		err = os.Chdir(tmpDir)
 		require.NoError(t, err)
 		defer func() {
@@ -214,4 +214,3 @@ func TestLoadEnvFile_Integration(t *testing.T) {
 		assert.NotNil(t, app.Router)
 	})
 }
-

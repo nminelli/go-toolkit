@@ -18,7 +18,7 @@ The `webapp` package provides a robust framework for building web applications i
 ## Installation
 
 ```bash
-go get github.com/MFN-AISystems/go-toolkit/webapp
+go get github.com/nminelli/go-toolkit/webapp
 ```
 
 ## Basic Usage
@@ -32,8 +32,8 @@ import (
 	"context"
 	"net/http"
 
-	"github.com/MFN-AISystems/go-toolkit/httprouter"
-	"github.com/MFN-AISystems/go-toolkit/webapp"
+	"github.com/nminelli/go-toolkit/httprouter"
+	"github.com/nminelli/go-toolkit/webapp"
 )
 
 func main() {
@@ -128,8 +128,8 @@ Shutdown hooks allow you to register functions that will be executed during grac
 
 ```go
 import (
-    "github.com/MFN-AISystems/go-toolkit/service/aws/sqs"
-    "github.com/MFN-AISystems/go-toolkit/webapp"
+    "github.com/nminelli/go-toolkit/service/aws/sqs"
+    "github.com/nminelli/go-toolkit/webapp"
 )
 
 // Create SQS poller
@@ -229,8 +229,8 @@ import (
 
 	"github.com/google/uuid"
 
-	"github.com/MFN-AISystems/go-toolkit/httprouter"
-	"github.com/MFN-AISystems/go-toolkit/webapp"
+	"github.com/nminelli/go-toolkit/httprouter"
+	"github.com/nminelli/go-toolkit/webapp"
 )
 
 func main() {
